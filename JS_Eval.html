@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Evaluation</title>
+</head>
+<body>
+
+
+
+
+<p id="demo">Hello world</p>
+
+<button id="yes" type="button">Click Me!</button>
+
+
+<script type="text/javascript">
+	var Nums = [-2, 3, 4, -6]
+
+	for(i = 0; i < Nums.length ; i++ ){
+		if( i >= 0 ){
+			document.write(i + " is positive.");
+			document.write("<br>")
+		} else {
+			document.write(i + " is negative.  ");
+			document.write("<br>")
+		}
+	}
+
+document.write("<br>");
+
+document.getElementById('demo').addEventListener('mouseover',Now())
+
+document.getElementById("yes").addEventListener('click', Now())
+
+function Now(){
+		document.getElementById("demo").innerHTML = "Hello JavaScript"
+}
+
+
+
+
+
+	</script>
+
+</body>
+</html>
